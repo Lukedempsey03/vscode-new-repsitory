@@ -58,17 +58,17 @@ int main() {
     int index;
     //srand(time(0));
     int temp =0; 
-    for (i =0; i , i < 4; i++){
+    /*for (i =0; i , i < 4; i++){
         index = rand() %4; 
         temp = prog[];
         prog[i] = prog[index];
         prog[index] = temp;
-    }
+    }*/
     
-    cout << prog[index];
+    //cout << prog[index];
 
 
-   /* cout << "*********************************\n";
+    cout << "*********************************\n";
     cout << "Welcome to Progression Generator!\n";    
     cout << "Do you want a Major or minor Progression?\n";
     cout << "(For Major enter 0, For minor enter 1)\n";
@@ -84,7 +84,7 @@ int main() {
     for(u=0; u<4 ; u++)
     {
         cout<< prog[u];
-    }*/
+    }
    
     return 0;  
 }
